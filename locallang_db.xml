@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'sampleflex'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">twitter posts list</label>
+
+			<label index="tt_content.pi_flexform.sheet_general">General Settings</label>
+			<label index="tt_content.pi_flexform.twitter_username">twitter username</label>
+			<label index="tt_content.pi_flexform.twitter_password">twitter password</label>
+
+			<label index="tt_content.pi_flexform.sheet_display">Display Settings</label>
+			<label index="tt_content.pi_flexform.view_mode">view mode</label>
+			<label index="tt_content.pi_flexform.view_mode.0">all public posts</label>
+			<label index="tt_content.pi_flexform.view_mode.1">friends posts</label>
+			<label index="tt_content.pi_flexform.view_mode.2">own posts</label>
+			<label index="tt_content.pi_flexform.view_count">count of items to be displayed</label>
+			<label index="tt_content.pi_flexform.link_picture">link profile image?</label>
+			<label index="tt_content.pi_flexform.link_name">link real name?</label>
+			<label index="tt_content.pi_flexform.link_screenname">link screen name?</label>
+			<label index="tt_content.pi_flexform.link_target">target of all links</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_content.list_type_pi1">Twitter Post-Liste</label>
+
+			<label index="tt_content.pi_flexform.sheet_general">Allgemeine Einstellung</label>
+			<label index="tt_content.pi_flexform.twitter_username">Twitter Benutzername</label>
+			<label index="tt_content.pi_flexform.twitter_password">Twitter Passwort</label>
+
+			<label index="tt_content.pi_flexform.sheet_display">Anzeige Einstellungen</label>
+			<label index="tt_content.pi_flexform.view_mode">Anzeigemodus</label>
+			<label index="tt_content.pi_flexform.view_mode.0">zeige alle öffentlichen Nachrichten</label>
+			<label index="tt_content.pi_flexform.view_mode.1">zeige alle Nachrichten von Freunden</label>
+			<label index="tt_content.pi_flexform.view_mode.2">zeige nur eigene Nachrichten</label>
+			<label index="tt_content.pi_flexform.view_count">maximale Anzahl Nachrichten</label>
+			<label index="tt_content.pi_flexform.link_picture">Profil-Bild verlinken?</label>
+			<label index="tt_content.pi_flexform.link_name">Namen verlinken?</label>
+			<label index="tt_content.pi_flexform.link_screenname">Benutzername verlinken?</label>
+			<label index="tt_content.pi_flexform.link_target">Target für alle Links</label>
+		</languageKey>
+	</data>
+</T3locallang>

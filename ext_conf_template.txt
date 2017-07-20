@@ -1,0 +1,23 @@
+ #cat=others;type=string;label=Twitter Username.
+twitter_username =
+
+ #cat=others;type=string;label=Twitter Password.
+twitter_password =
+
+ #cat=others;type=string;label=Twitter Message. Marker: %TITLE%, %LINK% (TinyURL to Post)
+twitter_message = Blog-Update: %TITLE% - %LINK%
+
+ #cat=others;type=boolean;label=send request on new posts
+twitter_on_new = 1
+
+ #cat=others;type=boolean;label=send request on post updates
+twitter_on_update = 0
+
+ #cat=others;type=int;label=PID of single page
+singlePid =
+
+ #cat=others;type=int;label=PID of news article or blog posts
+Pid = 0
+
+ #cat=others;type=string;label=base url, default is TYPO3_SITE_URL
+baseUrl = 

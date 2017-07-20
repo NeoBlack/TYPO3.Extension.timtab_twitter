@@ -1,0 +1,25 @@
+
+You can use this Marker:
+
+###CREATED_AT###		= creation date of the entry, use 
+						  plugin.tx_timtabtwitter_pi1.timeFormats.output
+						  to format the output
+###MESSAGE###			= the text of the entry
+###USER_REAL_NAME###	= the real name of the user
+###USER_SCREEN_NAME###	= the screenname of the user
+###USER_LOCATION###		= the location of the user
+###USER_DESCRIPTION###	= the description of the user
+###USER_IMAGE###		= the profile image of the user
+###USER_IMAGE_SRC###	= the url to the profile image of the user, if you want a special <img>-tag
+###USER_URL###			= the url to the users website/blog
+
+<!-- ###TEMPLATE_ENTRY### begin
+	This subpart is used to display single entrys
+-->
+<div class="entry">
+	<p class="date">###CREATED_AT###</p>
+	<p class="username">###USER_SCREEN_NAME### (###USER_LOCATION###)</p>
+	<p class="message"><span style="float: left;">###USER_IMAGE###</span>###MESSAGE###</p>
+</div>
+
+<!-- ###TEMPLATE_ENTRY### end -->

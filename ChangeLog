@@ -1,0 +1,8 @@
+(add new changes on top of this file)
+
+09-06-24 Frank NŠgler <typo3@naegler.net>
+	* fix (X)HTML Output of links, now it is valid code (thx for this hint @Kai Hirdt
+
+07-04-22 Frank NÃ¤gler  <typo3@naegler.net>
+
+	* Initial release

@@ -1,0 +1,112 @@
+<T3DataStructure>
+ <meta>
+       <langDisable>1</langDisable>
+ </meta>
+ <sheets>
+  <sDEF>
+   <ROOT>
+    <TCEforms>
+     <sheetTitle>LLL:EXT:timtab_twitter/locallang_db.php:tt_content.pi_flexform.sheet_general</sheetTitle>
+    </TCEforms>
+    <type>array</type>
+     <el>
+      <twitter_username>
+       <TCEforms>
+        <label>LLL:EXT:timtab_twitter/locallang_db.php:tt_content.pi_flexform.twitter_username</label>
+        <config>
+         <type>input</type>
+         <size>30</size>
+        </config>
+       </TCEforms>
+      </twitter_username>      
+      <twitter_password>
+       <TCEforms>
+        <label>LLL:EXT:timtab_twitter/locallang_db.php:tt_content.pi_flexform.twitter_password</label>
+        <config>
+         <type>input</type>
+         <eval>password</eval>
+         <size>30</size>
+        </config>
+       </TCEforms>
+      </twitter_password>
+     </el>
+    </ROOT>
+   </sDEF>
+   <display>
+    <ROOT>
+     <TCEforms>
+      <sheetTitle>LLL:EXT:timtab_twitter/locallang_db.php:tt_content.pi_flexform.sheet_display</sheetTitle>
+     </TCEforms>
+     <type>array</type>
+     <el>
+      <view_mode>
+       <TCEforms>
+        <label>LLL:EXT:timtab_twitter/locallang_db.php:tt_content.pi_flexform.view_mode</label>
+        <config>
+         <type>select</type>
+         <items type="array">
+          <numIndex index="0" type="array">
+           <numIndex index="0">LLL:EXT:timtab_twitter/locallang_db.php:tt_content.pi_flexform.view_mode.0</numIndex>
+           <numIndex index="1">public</numIndex>
+          </numIndex>
+          <numIndex index="1" type="array">
+           <numIndex index="0">LLL:EXT:timtab_twitter/locallang_db.php:tt_content.pi_flexform.view_mode.1</numIndex>
+           <numIndex index="1">friends</numIndex>
+          </numIndex>
+          <numIndex index="2" type="array">
+           <numIndex index="0">LLL:EXT:timtab_twitter/locallang_db.php:tt_content.pi_flexform.view_mode.2</numIndex>
+           <numIndex index="1">user</numIndex>
+          </numIndex>
+         </items>
+        </config>
+       </TCEforms>
+      </view_mode>
+      <view_count>
+       <TCEforms>
+        <label>LLL:EXT:timtab_twitter/locallang_db.php:tt_content.pi_flexform.view_count</label>
+        <config>
+         <type>input</type>
+		 <eval>int</eval>
+         <size>4</size>
+		 <default>5</default>
+        </config>
+       </TCEforms>
+      </view_count>      
+      <link_target>
+       <TCEforms>
+        <label>LLL:EXT:timtab_twitter/locallang_db.php:tt_content.pi_flexform.link_target</label>
+        <config>
+         <type>input</type>
+         <size>10</size>
+        </config>
+       </TCEforms>
+      </link_target>      
+      <link_picture>
+       <TCEforms>
+        <label>LLL:EXT:timtab_twitter/locallang_db.php:tt_content.pi_flexform.link_picture</label>
+        <config>
+         <type>check</type>
+        </config>
+       </TCEforms>
+      </link_picture>      
+      <link_name>
+       <TCEforms>
+        <label>LLL:EXT:timtab_twitter/locallang_db.php:tt_content.pi_flexform.link_name</label>
+        <config>
+         <type>check</type>
+        </config>
+       </TCEforms>
+      </link_name>      
+      <link_screenname>
+       <TCEforms>
+        <label>LLL:EXT:timtab_twitter/locallang_db.php:tt_content.pi_flexform.link_screenname</label>
+        <config>
+         <type>check</type>
+        </config>
+       </TCEforms>
+      </link_screenname>      
+     </el>
+    </ROOT>
+   </display>
+  </sheets>
+</T3DataStructure>

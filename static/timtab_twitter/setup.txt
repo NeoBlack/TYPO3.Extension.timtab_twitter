@@ -1,0 +1,11 @@
+# setup
+
+plugin.tx_timtabtwitter_pi1 {
+	action = http://twitter.com/statuses/###TIMELINE###/###USERNAME###.xml
+	template = {$plugin.tx_timtabtwitter_pi1.file.template}
+	timeFormats {
+		output = %d.%m.%Y %H:%M
+	}
+	# make links in the messages clickable?
+	makeLinksClickable = 1
+}

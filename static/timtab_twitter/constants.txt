@@ -1,0 +1,5 @@
+# constants
+plugin.tx_timtabtwitter_pi1 {
+    # cat=basic/file; type=file[html,htm,txt,inc,tmpl]; label=Template file:  This file is very important. It's the template of output of the pi1-plugin. It's working with markers which define where content and images go.
+	file.template = EXT:timtab_twitter/res/main.tmpl
+}

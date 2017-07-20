@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'timtab_twitter'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">twitter posts list</label>
+			<label index="pi1_plus_wiz_description">shows latest messages</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pi1_title">Twitter Post-Liste</label>
+			<label index="pi1_plus_wiz_description">zeigt die letzten Nachrichten</label>
+		</languageKey>
+	</data>
+</T3locallang>
